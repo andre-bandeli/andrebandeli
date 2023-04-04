@@ -104,6 +104,15 @@
                     }
                 }
             }
+            @media (max-width: 768px) {
+                .profissional {
+                    display: inline-block;
+
+                    .col-md {
+                        width: 90%;
+                    }
+                }
+            }
             
         
             .academic-container {
@@ -164,6 +173,19 @@
                         img:hover {
                             transition: .2s;
                             opacity: 1;
+                        }
+                    }
+                }
+            }
+            @media (max-width:550px) {
+                .academic-container {
+                    display: inline-block;
+                    height: auto;
+
+                    .col-6 {
+                        width: 100%;
+                        h2, h3, ul {
+                            margin-left: 5px;
                         }
                     }
                 }

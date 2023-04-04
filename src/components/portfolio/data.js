@@ -1,11 +1,11 @@
 
-import imagem from './back.png'
-import webstore from './webstore.png'
-import guia from './guia.png'
-import hamburgueria from './hamburgueria.png'
-import gym from './gym.png'
-import odonto from './odonto.png'
-import backend from './backend.webp'
+import imagem from './assets/back.png'
+import webstore from './assets/webstore.png'
+import guia from './assets/guia.png'
+import hamburgueria from './assets/hamburgueria.png'
+import gym from './assets/gym.png'
+import odonto from './assets/odonto.png'
+import backend from './assets/backend.webp'
 
 
 

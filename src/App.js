@@ -19,8 +19,8 @@ function App() {
       <Header/>
       <Cards/>
       <Portfolio/>
-      {/* <Sobre/>
-      <Certificados/>
+      <Sobre/>
+      {/* <Certificados/>
       <Ferramentas/>
       <Contato/>
       <Footer/> */}
