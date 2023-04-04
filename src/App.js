@@ -6,7 +6,6 @@ import Header from './components/header/Header';
 import Navbar from './components/Nav/Navbar'
 import Portfolio from './components/portfolio/Portfolio';
 import Produtos from './components/produtos/Produtos';
-import Separador from './components/separador/Separador';
 import Sobre from './components/sobre/Sobre';
 import Certificados from './components/certificados/Certificados'
 import Footer from './components/footer/Footer';
@@ -18,14 +17,13 @@ function App() {
     <div className="App">
       <Navbar/>
       <Header/>
-      {/* <Separador/> */}
-      <Produtos/>
+      {/* <Produtos/>
       <Portfolio/>
       <Sobre/>
       <Certificados/>
       <Ferramentas/>
       <Contato/>
-      <Footer/>
+      <Footer/> */}
 
     </div>
   );

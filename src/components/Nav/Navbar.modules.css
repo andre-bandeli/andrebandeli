@@ -76,7 +76,7 @@
 .Navbar nav ul li a {
     text-decoration: none;
     color: rgba(245, 245, 245, 0.649);
-    color: #daa520e5;
+    color: #c0c0c0e5;
     margin-top: 10px;
 
 }
@@ -88,7 +88,8 @@
 
 
 .Navbar a:hover {
-    border-bottom: 3px solid rgba(6, 163, 211, 0.822);
+    text-decoration: underline;
+    color: #e0e0e0e5;
 }
 .Navbar .Navigation img {
     position: absolute;
@@ -164,10 +165,6 @@
   
 }
 @media (max-width: 1024px) {
-
-}
-
-@media (max-width: 990px) {
     .Navbar {
         height: 10vh;
     }
@@ -202,8 +199,8 @@
     .Navbar .MobileNavigation .Hamburguer {
 
         position: absolute;
-        right: 30px;
-        top: 20px;
+        right: 70px;
+        top: 50px;
         cursor: pointer;
     }
     .Navbar .NavLinks nav ul {
@@ -246,10 +243,7 @@
         margin-left: 300px;
         margin-top: 0;
     }
-    .Navbar .MobileNavigation .Hamburguer {
 
-        top: 20px;
-    }
     .Navbar .Navigation img {
         margin-top: 0px;
         width: 150px;
