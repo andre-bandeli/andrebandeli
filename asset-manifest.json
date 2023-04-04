@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/andrebandeli/static/css/main.9cc239b5.css",
+    "main.js": "/andrebandeli/static/js/main.9f3b0538.js",
+    "static/media/guia.png": "/andrebandeli/static/media/guia.182a169cf9a0a584cb87.png",
+    "static/media/foto.svg": "/andrebandeli/static/media/foto.f560ce8bf9ed770a0960.svg",
+    "static/media/hamburgueria.png": "/andrebandeli/static/media/hamburgueria.5c47704defd76214b37b.png",
+    "static/media/certificado.png": "/andrebandeli/static/media/certificado.239e803c8cf6744d1ec9.png",
+    "static/media/webstore.png": "/andrebandeli/static/media/webstore.8eb70bf0633a5bf9448f.png",
+    "static/media/odonto.png": "/andrebandeli/static/media/odonto.d25782075a4df915bd0b.png",
+    "static/media/back.png": "/andrebandeli/static/media/back.58f57d70da9852e5163c.png",
+    "static/media/gym.png": "/andrebandeli/static/media/gym.3c4081f119937272ab21.png",
+    "static/media/unicamp.jpg": "/andrebandeli/static/media/unicamp.5d88a9d46b9bd52d1df4.jpg",
+    "static/media/cotuca.png": "/andrebandeli/static/media/cotuca.3e390a076394c4836236.png",
+    "static/media/ctc.jpg": "/andrebandeli/static/media/ctc.bc51ea947a16d9fba9c0.jpg",
+    "static/media/web.png": "/andrebandeli/static/media/web.feb4ab158eb5898ec509.png",
+    "static/media/react.svg": "/andrebandeli/static/media/react.7ae34555b628c7885ffd0366e8b7d4f8.svg",
+    "static/media/wordpress.svg": "/andrebandeli/static/media/wordpress.9a296fa5f2215a332c20b7effc2f5288.svg",
+    "static/media/python.svg": "/andrebandeli/static/media/python.d80bada89eecd9ae2c2d8de6f31e7a59.svg",
+    "static/media/mysql.svg": "/andrebandeli/static/media/mysql.943741906e6a32fb2655c3f909f315b9.svg",
+    "static/media/java.svg": "/andrebandeli/static/media/java.fcc3b85500412fe91afffb7e5374eb87.svg",
+    "static/media/kafka.svg": "/andrebandeli/static/media/kafka.3981038a4fb858d695ca6c9b29cff118.svg",
+    "static/media/mercado.png": "/andrebandeli/static/media/mercado.64070c5718e39ed2b050.png",
+    "static/media/docker.svg": "/andrebandeli/static/media/docker.9b3a9dbba1b559b77996ce9254d21b55.svg",
+    "static/media/in-ft.png": "/andrebandeli/static/media/in-ft.39a085e37da576be7e0c.png",
+    "static/media/git-ft.png": "/andrebandeli/static/media/git-ft.719f3899960cd195eb48.png",
+    "static/media/github.png": "/andrebandeli/static/media/github.9e50fb8b81ba235268dd.png",
+    "static/media/linkedin.png": "/andrebandeli/static/media/linkedin.f249b38224ca41a0b909.png",
+    "static/media/bootstrap.svg": "/andrebandeli/static/media/bootstrap.64b5caf6446d9a199746ccb6b8ab4054.svg",
+    "static/media/spring.svg": "/andrebandeli/static/media/spring.d1e6f20a85e5a03405c6645fb69d84c3.svg",
+    "static/media/backend.webp": "/andrebandeli/static/media/backend.5d7bc3c57acfacb34506.webp",
+    "index.html": "/andrebandeli/index.html",
+    "main.9cc239b5.css.map": "/andrebandeli/static/css/main.9cc239b5.css.map",
+    "main.9f3b0538.js.map": "/andrebandeli/static/js/main.9f3b0538.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cc239b5.css",
+    "static/js/main.9f3b0538.js"
+  ]
+}
