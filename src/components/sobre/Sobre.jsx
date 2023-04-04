@@ -1,7 +1,8 @@
 import React from 'react'
 import './sobre.scss'
-import cotuca from './ctc.jpg'
-import unicamp from './unicamp.jpg'
+import './responsive.css'
+import cotuca from './assets/ctc.jpg'
+import unicamp from './assets/unicamp.jpg'
 
 export default function Sobre() {
   return (
