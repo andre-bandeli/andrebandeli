@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/andrebandeli/static/css/main.9cc239b5.css",
-    "main.js": "/andrebandeli/static/js/main.9f3b0538.js",
+    "main.css": "/andrebandeli/static/css/main.f9892eb9.css",
+    "main.js": "/andrebandeli/static/js/main.df24a82b.js",
     "static/media/guia.png": "/andrebandeli/static/media/guia.182a169cf9a0a584cb87.png",
     "static/media/foto.svg": "/andrebandeli/static/media/foto.f560ce8bf9ed770a0960.svg",
     "static/media/hamburgueria.png": "/andrebandeli/static/media/hamburgueria.5c47704defd76214b37b.png",
@@ -30,11 +30,11 @@
     "static/media/spring.svg": "/andrebandeli/static/media/spring.d1e6f20a85e5a03405c6645fb69d84c3.svg",
     "static/media/backend.webp": "/andrebandeli/static/media/backend.5d7bc3c57acfacb34506.webp",
     "index.html": "/andrebandeli/index.html",
-    "main.9cc239b5.css.map": "/andrebandeli/static/css/main.9cc239b5.css.map",
-    "main.9f3b0538.js.map": "/andrebandeli/static/js/main.9f3b0538.js.map"
+    "main.f9892eb9.css.map": "/andrebandeli/static/css/main.f9892eb9.css.map",
+    "main.df24a82b.js.map": "/andrebandeli/static/js/main.df24a82b.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cc239b5.css",
-    "static/js/main.9f3b0538.js"
+    "static/css/main.f9892eb9.css",
+    "static/js/main.df24a82b.js"
   ]
 }
