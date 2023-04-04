@@ -19,11 +19,11 @@ export default function Contato() {
           <h2><b>Entre em contato através de alguma de minhas redes</b></h2>
 
           <div className="redes">
-            <a href="https://www.linkedin.com/in/andrebandeli/" target="__blank">
-              <img src={linkedin} alt=""/>
+            <a href="https://www.linkedin.com/in/andrebandeli/" alt="botão com ícone do linkedin" target="__blank">
+              <img src={linkedin} alt="Logo do linkedin"/>
             </a>
-            <a href="https://github.com/andre-bandeli" target="__blank">
-            <img src={github} alt="" />
+            <a href="https://github.com/andre-bandeli" alt="botão com ícone do github" target="__blank">
+            <img src={github} alt="Logo do github" />
             </a>
           </div>
           
@@ -32,7 +32,7 @@ export default function Contato() {
           <div className="container">
                 
                 <div className="foto">
-
+                  
                 </div>
           </div>
       </div>

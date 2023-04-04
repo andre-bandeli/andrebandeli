@@ -62,31 +62,32 @@
             margin: auto; margin-top: 15vh;
             visibility: visible;
 
-            a {
-
-                font-size: 16px;
-                font-weight: bold;
-                color: var(--secundary-font-color);
+            .btn-projects {
                 width: 250px;
                 height: 50px;
                 margin: auto;
-                
-                .btn-projects {
+                background-color: transparent;
+                border: 2px solid rgb(46, 46, 46);
+                box-shadow: rgba(49, 48, 48, 0.252) 0px 7px 29px 0px;
+                border-radius: 5px;
+                cursor: pointer;
+                color: var(--secundary-font-color);
+
+                a {
+
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: var(--secundary-font-color);
                     width: 250px;
                     height: 50px;
                     margin: auto;
-                    background-color: transparent;
-                    border: 2px solid rgb(46, 46, 46);
-                    box-shadow: rgba(49, 48, 48, 0.252) 0px 7px 29px 0px;
-                    border-radius: 5px;
-                    cursor: pointer;
-                    color: var(--secundary-font-color);
                 }
-                .btn-projects:hover {
+            }
+            
+            .btn-projects:hover {
                     background-color: rgba(30, 23, 24, 0.779);
                     color: orangered;
                     transition: .4s;
-                }
             }
         }
         .container-text {

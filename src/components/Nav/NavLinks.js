@@ -81,8 +81,8 @@ const NavLinks = () => {
             <a href="https://github.com/andre-bandeli" target="__blank" alt="link para a página do github">
                 <img src={git} className="git" alt='ícone gihub'></img>
             </a>
-            <a href="https://drive.google.com/file/d/1yGdyLi4i15Xa2ujFaQqF1eyvB0rwgpB_/view?usp=sharing" target="__blank" alt="link para a página do github">
-                <img src={pdf} className="pdf" alt='ícone gihub'></img>
+            <a href="https://drive.google.com/file/d/1yGdyLi4i15Xa2ujFaQqF1eyvB0rwgpB_/view?usp=sharing" target="__blank" alt="link para acessar o currículo online">
+                <img src={pdf} className="pdf" alt='ícone pdf'></img>
             </a>
 
         </div>

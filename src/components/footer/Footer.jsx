@@ -18,22 +18,22 @@ export default function Footer() {
             <h2>Páginas</h2>
             <ul>
                     <li>
-                        <a href="#header">Home</a>
+                        <a href="#header" alt="link para primeira página">Home</a>
                     </li>
                     <li>
-                        <a href="#portfolio">Projetos</a>
+                        <a href="#portfolio" alt="link para página de projetos">Projetos</a>
                     </li>
                     <li>
-                        <a href="#sobre">Sobre</a>
+                        <a href="#sobre" alt="link para página sobre">Sobre</a>
                     </li>
                     <li>
-                        <a href="#certificados">Certificados</a>
+                        <a href="#certificados" alt="link para página certificados">Certificados</a>
                     </li>
                     <li>
-                        <a href="#stacks">Stacks</a>
+                        <a href="#stacks" alt="link para página ferramentas">Stacks</a>
                     </li>
                     <li>
-                        <a href="#contato">Contatos</a>
+                        <a href="#contato" alt="link para página contatos">Contatos</a>
                     </li>
             </ul>
 
@@ -42,21 +42,21 @@ export default function Footer() {
                 <h2>Redes</h2>
                 <ul>
                         <li>
-                            <a href="https://github.com/andre-bandeli" target='__blank'>Github</a>
+                            <a href="https://github.com/andre-bandeli" alt="link para o github" target='__blank'>Github</a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/andrebandeli/" target='__blank'>Linkedin</a>
+                            <a href="https://www.linkedin.com/in/andrebandeli/" alt="link para o linkedin" target='__blank'>Linkedin</a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/andrebandeli/" target='__blank'>Currículo</a>
+                            <a href="https://www.linkedin.com/in/andrebandeli/" alt="link para documento pdf online do currículo" target='__blank'>Currículo</a>
                         </li>
                         <li className='redes'>
-                            <a href="https://github.com/andre-bandeli" target='__blank'>
-                        <img src={github} alt="ícone do twitter" width='25px' height='25px' /></a>
-                        <a href="https://www.linkedin.com/in/andrebandeli/" target='__blank'>
+                            <a href="https://github.com/andre-bandeli" alt="link para o github" target='__blank'>
+                        <img src={github} alt="ícone do github" width='25px' height='25px' /></a>
+                        <a href="https://www.linkedin.com/in/andrebandeli/" alt="link para o linkedin" target='__blank'>
                         <img src={linkedin} alt="ícone do linkedin" width='25px' height='25px' /></a>
-                        <a href="https://drive.google.com/file/d/1yGdyLi4i15Xa2ujFaQqF1eyvB0rwgpB_/view?usp=sharing" target='__blank'>
-                        <img src={pdf} alt="ícone do linkedin" width='25px' height='25px' /></a>
+                        <a href="https://drive.google.com/file/d/1yGdyLi4i15Xa2ujFaQqF1eyvB0rwgpB_/view?usp=sharing" alt="link para documento pdf online do currículo" target='__blank'>
+                        <img src={pdf} alt="ícone de pdf" width='25px' height='25px' /></a>
                     </li>
                        
                 </ul>

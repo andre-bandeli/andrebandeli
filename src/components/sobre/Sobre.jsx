@@ -25,7 +25,7 @@ export default function Sobre() {
                 <div className="academic-container">
                     <div className="col-6">
                         <div className="imagem-background">
-                        <img src={unicamp} alt="" />
+                        <img src={unicamp} alt="foto da unicamp visto de cima" />
                         </div>
 
                     </div>
@@ -64,7 +64,7 @@ export default function Sobre() {
                     </div>
                     <div className="col-6">
                         <div className="imagem-background">
-                        <img src={cotuca} alt="" />
+                        <img src={cotuca} alt="imagem do prédio do cotuca" />
                         </div>
 
                     </div>
@@ -113,8 +113,8 @@ export default function Sobre() {
 
             </div>
             <div className="btn">
-                <a href="https://drive.google.com/file/d/1yGdyLi4i15Xa2ujFaQqF1eyvB0rwgpB_/view?usp=sharing" target='__blank'>
-                <button className='btn-secundary' alt="botao para download do curriculo">
+                <a href="https://drive.google.com/file/d/1yGdyLi4i15Xa2ujFaQqF1eyvB0rwgpB_/view?usp=sharing" alt="acessar currículo online" target='__blank'>
+                <button className='btn-secundary' alt="botao para acessar curriculo">
                 ver currículo completo</button>
                 </a>
             </div>

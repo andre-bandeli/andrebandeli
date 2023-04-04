@@ -75,12 +75,13 @@ export default function Portfolio() {
                             <button className='btn-github'>
                                 <a href={d.git} target="__blank" alt="botão github">github</a>
                             </button>
+                            {d.view ? (
                             <button className='btn-view'>
                                 <a href={d.view} target="__blank" alt="botão página online">online</a> 
                             </button>
-                            
+                        ) : null}
                         </div>
-                   
+
                     </div>
                             
                 </div>

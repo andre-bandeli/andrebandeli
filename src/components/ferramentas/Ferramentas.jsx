@@ -60,7 +60,7 @@ export default function Ferramentas() {
             </div>
 
             <div className="box">
-                <img src={bootstrap} alt="" />
+                <img src={bootstrap} alt="ícone do bootstrap" />
                 <h2>Bootstrap</h2>
             </div>
 

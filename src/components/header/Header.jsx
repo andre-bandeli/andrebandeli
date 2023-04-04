@@ -11,9 +11,10 @@ export default function Header() {
         <span className='spn-name'><h2>André Bandeli</h2></span>
         <h3>Desenvolvedor de Software Web | Técnico Mecatrônico | Graduando em Engenharia Agrícola</h3>
         <div className="btn">
-          <a href="/#portfolio" alt="link para a página de projetos">
-            <button className='btn-projects' alt="botão para seção de projetos">ver projetos</button>
-          </a>
+        <button className='btn-projects' alt="botão para seção de projetos">
+          <a href="#portfolio" alt="link para a página de projetos">
+           ver projetos
+          </a></button>
         </div>
       </div>
     </div>
