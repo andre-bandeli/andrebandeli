@@ -10,13 +10,13 @@ const NavLinksMobile = () => {
                 <a href="#portfolio"> Projetos</a>
             </li>
             <li>
-                <a href="#cards"> Sobre</a>
+                <a href="#sobre"> Sobre</a>
             </li>
             <li>
-                <a href="#posts"> Certificados</a>
+                <a href="#certificados"> Certificados</a>
             </li>
             <li>
-                <a href="#ferramentas">Stacks</a>
+                <a href="#stacks">Stacks</a>
             </li>
             <li>
                 <a href="#contato">Contato</a>

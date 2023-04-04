@@ -1,10 +1,10 @@
 import React from 'react'
 import './cards.scss'
 import './responsive.css'
-import unicamp from './icones/unicamp.png'
-import cotuca from './icones/cotuca.png'
-import mercado from './icones/mercado.png'
-import web from './icones/web.png'
+import unicamp from './icones/unicamp.webp'
+import cotuca from './icones/cotuca.webp'
+import mercado from './icones/mercado.webp'
+import web from './icones/web.webp'
 
 export default function Cards() {
 

@@ -1,5 +1,6 @@
-import linkedin from './in-ft.png'
-import git from './git-ft.png'
+import linkedin from './assets/in-ft.webp'
+import git from './assets/git-ft.webp'
+import pdf from './assets/pdf.webp'
 import $ from 'jquery';
 
 
@@ -16,6 +17,8 @@ const NavLinks = () => {
             $(".git").css('transition', '.3s');
             $(".in").css('margin-top', '10px');
             $(".in").css('transition', '.3s');
+            $(".pdf").css('margin-top', '10px');
+            $(".pdf").css('transition', '.3s');
 
         }
         else {
@@ -24,6 +27,7 @@ const NavLinks = () => {
             $("#ul").css('margin-top', '0px');
             $(".git").css('margin-top', '57px');
             $(".in").css('margin-top', '57px');
+            $(".pdf").css('margin-top', '57px');
             
         }
        
@@ -58,7 +62,7 @@ const NavLinks = () => {
                 </li>
                 <li>
                     <div className='link'>
-                        <a href="#ferramentas"  alt="botão ferramentas">Stacks</a>
+                        <a href="#stack"  alt="botão ferramentas">Stacks</a>
                     </div>
                 </li>
                 <li>
@@ -76,7 +80,10 @@ const NavLinks = () => {
             </a>
             <a href="https://github.com/andre-bandeli" target="__blank" alt="link para a página do github">
                 <img src={git} className="git" alt='ícone gihub'></img>
-                </a>
+            </a>
+            <a href="https://drive.google.com/file/d/1yGdyLi4i15Xa2ujFaQqF1eyvB0rwgpB_/view?usp=sharing" target="__blank" alt="link para a página do github">
+                <img src={pdf} className="pdf" alt='ícone gihub'></img>
+            </a>
 
         </div>
     );

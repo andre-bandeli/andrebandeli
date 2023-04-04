@@ -64,14 +64,20 @@
    width: 20px;
    position: absolute;
    margin-top: 65px;
-   margin-left: 1400px;
+   margin-left: 1350px;
 }
 .Navbar nav .in {
     width: 20px;
     position: absolute;
     margin-top: 65px;
-    margin-left: 1440px;
- }
+    margin-left: 1400px;
+}
+.Navbar nav .pdf {
+    width: 22px;
+    position: absolute;
+    margin-top: 57px;
+    margin-left: 1450px;
+}
 
 .Navbar nav ul li a {
     text-decoration: none;
@@ -147,6 +153,10 @@
         visibility: hidden;
      }
      .Navbar nav .in {
+        width: 0;
+        visibility: hidden;
+      }
+      .Navbar nav .pdf {
         width: 0;
         visibility: hidden;
       }

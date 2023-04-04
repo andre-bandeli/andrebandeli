@@ -1,8 +1,8 @@
 import React from 'react'
 import './sobre.scss'
 import './responsive.css'
-import cotuca from './assets/ctc.jpg'
-import unicamp from './assets/unicamp.jpg'
+import cotuca from './assets/ctc.webp'
+import unicamp from './assets/unicamp.webp'
 
 export default function Sobre() {
   return (
@@ -113,9 +113,9 @@ export default function Sobre() {
 
             </div>
             <div className="btn">
-                <a href="assets/andre-bandeli.pdf" download alt="botao para download do curriculo">
+                <a href="https://drive.google.com/file/d/1yGdyLi4i15Xa2ujFaQqF1eyvB0rwgpB_/view?usp=sharing" target='__blank'>
                 <button className='btn-secundary' alt="botao para download do curriculo">
-                baixar currículo completo</button>
+                ver currículo completo</button>
                 </a>
             </div>
            

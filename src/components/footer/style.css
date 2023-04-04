@@ -60,11 +60,11 @@
 
 .footer .containerFooter .boxFooter ul  .redes {
     display: flex;
-    margin-top: 1vh;
+    margin-top: 2vh;
 }
 
 .footer .containerFooter .boxFooter ul .redes img {
-    margin-right: 2vh;
+    margin-right: 1vh;
     opacity: .7;
 }
 

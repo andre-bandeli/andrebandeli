@@ -1,8 +1,8 @@
 import React from 'react'
 import './style.css'
-// import instagran from '../assets/icones/insta.webp'
-// import linkedin from '../assets/icones/in.webp'
-// import twitter from '../assets/icones/twitter.webp'
+import github from './assets/github.webp'
+import linkedin from './assets/linkedin.webp'
+import pdf from './assets/pdf.webp'
 
 
 
@@ -18,22 +18,22 @@ export default function Footer() {
             <h2>Páginas</h2>
             <ul>
                     <li>
-                        <a to="#header">Home</a>
+                        <a href="#header">Home</a>
                     </li>
                     <li>
-                        <a to="#portfolio">Projetos</a>
+                        <a href="#portfolio">Projetos</a>
                     </li>
                     <li>
-                        <a to="#sobre">Sobre</a>
+                        <a href="#sobre">Sobre</a>
                     </li>
                     <li>
-                        <a to="#certificados">Certificados</a>
+                        <a href="#certificados">Certificados</a>
                     </li>
                     <li>
-                        <a to="#ferramentas">Stacks</a>
+                        <a href="#stacks">Stacks</a>
                     </li>
                     <li>
-                        <a to="#contato">Contato</a>
+                        <a href="#contato">Contatos</a>
                     </li>
             </ul>
 
@@ -42,14 +42,22 @@ export default function Footer() {
                 <h2>Redes</h2>
                 <ul>
                         <li>
-                            <a to="https://github.com/andre-bandeli">Github</a>
+                            <a href="https://github.com/andre-bandeli" target='__blank'>Github</a>
                         </li>
                         <li>
-                            <a to="https://www.linkedin.com/in/andrebandeli/">Linkedin</a>
+                            <a href="https://www.linkedin.com/in/andrebandeli/" target='__blank'>Linkedin</a>
                         </li>
                         <li>
-                            <a to="/login">Currículo</a>
+                            <a href="https://www.linkedin.com/in/andrebandeli/" target='__blank'>Currículo</a>
                         </li>
+                        <li className='redes'>
+                            <a href="https://github.com/andre-bandeli" target='__blank'>
+                        <img src={github} alt="ícone do twitter" width='25px' height='25px' /></a>
+                        <a href="https://www.linkedin.com/in/andrebandeli/" target='__blank'>
+                        <img src={linkedin} alt="ícone do linkedin" width='25px' height='25px' /></a>
+                        <a href="https://drive.google.com/file/d/1yGdyLi4i15Xa2ujFaQqF1eyvB0rwgpB_/view?usp=sharing" target='__blank'>
+                        <img src={pdf} alt="ícone do linkedin" width='25px' height='25px' /></a>
+                    </li>
                        
                 </ul>
 
@@ -64,12 +72,7 @@ export default function Footer() {
                     <li>
                        Barão Geraldo, Campinas, São Paulo, Brasil.
                     </li>
-                    <li className='redes'>
-                        {/* <img src={twitter} alt="ícone do twitter" width='25px' height='25px' />
-                        <img src={instagran} alt="ícone do instagran" width='25px' height='25px' />
-                        <img src={linkedin} alt="ícone do linkedin" width='25px' height='25px' /> */}
-                    </li>
-                   
+
             </ul>
 
             </div>
