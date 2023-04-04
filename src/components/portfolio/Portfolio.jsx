@@ -73,11 +73,24 @@ export default function Portfolio() {
         <div className="container">
             {data.map((d) => (
                 <div className="box">
+                    <div className="imagem">
+                            <img src={d.img} alt={d.img_alt} />
+                    </div>
+                    <div className="content">
                         <h2>{d.title}</h2>
                         <h3>{d.legenda}</h3>
-                            <a href={d.git} target="__blank" className='link_a' alt="botão github">github</a>
-                            <a href={d.view} target="__blank" className='link' alt="botão página online">online</a>
-                            <img src={d.img} alt={d.img_alt} />
+                        <div className="buttons">
+                            <button className='btn-github'>
+                                <a href={d.git} target="__blank" alt="botão github">github</a>
+                            </button>
+                            <button className='btn-view'>
+                                <a href={d.view} target="__blank" alt="botão página online">online</a> 
+                            </button>
+                            
+                        </div>
+                   
+                    </div>
+                            
                 </div>
             ))}
         </div>

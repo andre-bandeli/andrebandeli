@@ -30,8 +30,6 @@ export default function Header() {
              
                 <a href="https://www.linkedin.com/in/andrébandeli/" target="__blank" alt="link para a página do linkedin">
                 <img src={linkedin} alt="icone do linkedin" /></a>
-
-      
             </div>
 
               <div className="btn">

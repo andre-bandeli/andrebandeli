@@ -1,32 +1,37 @@
 import React from 'react'
 import './produtos.scss'
-import api from './icones/api.svg'
-import img_html from './icones/html.svg'
-import tag_seo from './icones/tag-seo.svg'
+import unicamp from './icones/unicamp.png'
+import cotuca from './icones/cotuca.png'
+import mercado from './icones/mercado.png'
+import web from './icones/web.png'
 
 export default function Produtos() {
 
   return (
     <div id='produtos'>
-         <h2>Atividades</h2>
-        <h3>Criação de sites institucionais, components e sistemas web, revisão e melhorias em pontuação SEO são algumas das atividades que venho estudando e produzindo</h3>
+      
         <div className="container">
             <div className="box">
 
-              <img src={api} alt="ícone ilustrativo api REST" />
-              <h2>Construção de api REST e componentes de software web</h2>
+              <img src={cotuca} alt="ícone ilustrativo api REST" />
+              <h2>Técnico Mecatrônico e Assistente de Projetos e Processos Industriais Mecânicos formado pelo Colégio Técnico de Campinas - COTUCA UNICAMP</h2>
 
             </div>
             <div className="box">
 
-              <img src={img_html} alt="ícone ilustrativo página" />
-              <h2>Landing pages. sites institucionais e sistemas fullstack</h2>
+              <img src={unicamp} alt="ícone ilustrativo página" />
+              <h2>Graduando em Engenharia Agrícola pela Universidade Estadual de Campinas, mas remanejando para o curso de Matemática Aplicada e Computacional </h2>
                 
             </div>
             <div className="box">
 
-              <img src={tag_seo} alt="ícone ilustrativo SEO" />
-              <h2>Análise de SEO, desempenho, acessilidade e execução de testes</h2>
+              <img src={mercado} alt="ícone ilustrativo SEO" />
+              <h2>+10 anos de atuação no mercado de trabalho, tendo atuado no setor industrial, mecânico, recreativo e, atualmente, com desenvolvimento de software</h2>
+            </div>
+            <div className="box">
+
+              <img src={web} alt="ícone ilustrativo SEO" />
+              <h2>Desenvolvo utilizando as principais ferramentas de mercado, tais como: Java, Spring Boot, Docker, React, MySQL, Bootstrap, Wordpress, Html e CSS</h2>
             </div>
         </div>
 

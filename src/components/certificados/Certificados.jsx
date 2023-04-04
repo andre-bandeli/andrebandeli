@@ -2,6 +2,7 @@ import React from 'react'
 import { useEffect, useState } from "react";
 import './certificados.scss'
 import ReactElasticCarousel from 'react-elastic-carousel'
+import certificado from './certificado.png'
 
 import {
   certificados,
@@ -41,21 +42,17 @@ export default function Certificados() {
 
         {data.map((d) => (
           <div className='box'>
-
-            <div className="name">
-              <h2>Curso</h2> 
+            <div className="imagem">
+              <img src={certificado} alt="" />
             </div>
+            <div className="content">
 
-            <div className="text">
-                <h3>{d.title}</h3>
-            </div>
+                    <h4> <span>{d.title}</span></h4>
 
-            <div className="local">
-              <h2>Instituição</h2> 
-            </div>
 
-            <div className="text">
-                <h3>{d.legenda}</h3>
+                    <h4>{d.legenda}</h4>
+
+
             </div>
 
           </div>

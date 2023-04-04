@@ -1,0 +1,87 @@
+
+.footer {
+    width: 100%;
+    height: 40vh;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 100px;
+
+}
+
+.footer .social-box {
+    width: 100%;
+    height: 5vh;
+    border-bottom: 1px solid rgba(139, 139, 139, 0.5);
+}
+
+.footer .containerFooter {
+    width: 60%;
+    height: 70%;
+    margin:auto;
+    margin-top: 4vh;
+    display: flex;
+}
+
+.footer .containerFooter  .boxFooter {
+    width: 33.3%;
+    margin: auto;
+    height: 100%;
+}
+
+.footer .containerFooter .boxFooter  h2 {
+    font-size: 20px;
+    margin-left: 4vh;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: rgb(48, 46, 46);
+    color: white;
+    text-align: left;
+}
+
+.footer .containerFooter .boxFooter ul {
+    margin-top: 2vh;
+}
+
+.footer .containerFooter .boxFooter ul li {
+    list-style: none;
+    text-align: left;
+    margin-top: 1vh;
+    color: rgb(155, 155, 155);
+}
+.footer .containerFooter .boxFooter ul li a {
+    color: black;
+    color: rgb(197, 197, 197);
+    text-align: left;
+    text-decoration: none;
+}
+.footer .containerFooter .boxFooter ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.footer .containerFooter .boxFooter ul  .redes {
+    display: flex;
+    margin-top: 1vh;
+}
+
+.footer .containerFooter .boxFooter ul .redes img {
+    margin-right: 2vh;
+    opacity: .7;
+}
+
+
+@media (max-width: 768px) {
+
+    .footer .containerFooter {
+            width: 100%;
+            display: inline-block;
+            
+    }
+    .footer .containerFooter .boxFooter {
+            width: 90%;
+            height: auto;
+            margin: auto;
+            margin-top: 2vh;
+            padding-bottom: 10px;
+    }
+}
+    
