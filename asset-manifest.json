@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/andrebandeli/static/css/main.447fecc5.css",
-    "main.js": "/andrebandeli/static/js/main.082049b6.js",
+    "main.css": "/andrebandeli/static/css/main.b04b7257.css",
+    "main.js": "/andrebandeli/static/js/main.fc7a3d16.js",
     "static/media/foto.svg": "/andrebandeli/static/media/foto.f560ce8bf9ed770a0960.svg",
     "static/media/certificado.png": "/andrebandeli/static/media/certificado.239e803c8cf6744d1ec9.png",
     "static/media/unicamp.webp": "/andrebandeli/static/media/unicamp.47193d0ff446ba2124c0.webp",
@@ -31,11 +31,11 @@
     "static/media/backend.webp": "/andrebandeli/static/media/backend.5d7bc3c57acfacb34506.webp",
     "static/media/pdf.webp": "/andrebandeli/static/media/pdf.b1675325026a5b9bb894.webp",
     "index.html": "/andrebandeli/index.html",
-    "main.447fecc5.css.map": "/andrebandeli/static/css/main.447fecc5.css.map",
-    "main.082049b6.js.map": "/andrebandeli/static/js/main.082049b6.js.map"
+    "main.b04b7257.css.map": "/andrebandeli/static/css/main.b04b7257.css.map",
+    "main.fc7a3d16.js.map": "/andrebandeli/static/js/main.fc7a3d16.js.map"
   },
   "entrypoints": [
-    "static/css/main.447fecc5.css",
-    "static/js/main.082049b6.js"
+    "static/css/main.b04b7257.css",
+    "static/js/main.fc7a3d16.js"
   ]
 }
