@@ -15,7 +15,8 @@ export default function Contato() {
       <div className="container">
           
           <h1>Contato</h1>
-          <h2>Entre em contato através de alguma das minhas redes:</h2>
+          <h2>Quer conversar sobre ideias, projetos ou simplesmente compartilhar histórias interessantes? Me chame para um café.</h2>
+          <h2><b>Entre em contato através de alguma de minhas redes</b></h2>
 
           <div className="redes">
             <a href="https://www.linkedin.com/in/andrebandeli/" target="__blank">
