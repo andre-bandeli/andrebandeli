@@ -14,8 +14,6 @@
     height: auto;
     margin-top: 10vh;
     
-
-
     h2 {
         color: var(--main-font-color);
         font-size: 45px;
@@ -38,7 +36,6 @@
         color: var(--secundary-font-color);
         
     }
-
 
     .container {
         width: 100%;
@@ -86,9 +83,6 @@
                     font-size: 14px;
                     margin-left: 10px;
                     line-height: 20px;
-
-
-                    
                 }
                 .buttons {
                     width: 100%;
@@ -127,76 +121,8 @@
                             color: rgb(46, 46, 46);
                         }
                     }
-                    
-                   
                 }
-               
-    
-            }
-        }
-        
-        
-    }
-}
-
-
-@media (max-width: 1440px) {
-    
-#portfolio {
-    .container {
-        .box {
-            width: 33.3%;
-        }
-    
-    }
-}
-}
-
-@media (max-width: 1024px) {
-    
-    #portfolio {
-        margin-top: 20%;
-
-        .container {
-
-            .box {
-                width: 49%; 
             }
         }
     }
 }
-
-@media (max-width: 550px) {
-    
-    #portfolio {
-
-        margin-top: 50%;
-        width: 100%;
-        
-
-        .container {
-            width: 100%;
-            display: inline-block;
-            .box {
-                margin: auto;
-                margin-top: 1vh;
-                width: 100%;
-
-                h2 {
-                    margin-top: 50px;
-                }
-                h3 {
-                    margin-top: 120px;
-                }
-
-                .link, .link_a {
-                    margin-top: 150px;
-                }
-
-               
-            }
-        }
-
-    }
-}
-

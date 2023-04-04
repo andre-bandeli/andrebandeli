@@ -18,8 +18,8 @@ function App() {
       <Navbar/>
       <Header/>
       <Cards/>
-      {/* <Portfolio/>
-      <Sobre/>
+      <Portfolio/>
+      {/* <Sobre/>
       <Certificados/>
       <Ferramentas/>
       <Contato/>

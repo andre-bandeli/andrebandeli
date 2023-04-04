@@ -1,0 +1,39 @@
+@media (max-width:1440px) {
+    #portfolio .container .box {
+        width: 30%;
+    }
+}
+
+@media (max-width:1024px) {
+    #portfolio {
+        margin-top: 20%;
+    }
+    #portfolio .container .box {
+        width: 45%;
+    }
+}
+
+@media (max-width:550px) {
+    #portfolio {
+        margin-top: 50%;
+        width: 100%;
+    }
+    #portfolio .container {
+        width: 100%;
+        display: inline-block;
+    }
+    #portfolio .container .box {
+        margin: auto;
+        margin-top: 5vh;
+        width: 80%;
+    }
+    #portfolio .container .box h2 {
+        margin-top: 20px;
+    }
+    #portfolio .container .box h3 {
+        margin-top: 20px;
+    }
+    #portfolio .container .box .link, #portfolio .container .box .link_a {
+        margin-top: 150px;
+    }
+}

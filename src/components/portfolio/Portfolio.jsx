@@ -1,5 +1,6 @@
 import React from 'react'
 import './portfolio.scss'
+import './responsive.css'
 import { useEffect, useState } from "react";
 import PortfolioList from "./PortfolioList";
 
@@ -8,8 +9,7 @@ import {
     todos,
     reactjs,
     java,
-    python,
-} from '../../data';
+} from './data';
 
 export default function Portfolio() {
 
@@ -28,10 +28,6 @@ export default function Portfolio() {
         id: "java",
         title: "Java",
         },
-        {
-        id: "python",
-        title: "Python",
-        },
     ];
 
     useEffect(() => {
@@ -44,9 +40,6 @@ export default function Portfolio() {
             break;
         case "java":
             setData(java);
-            break;
-        case "python":
-            setData(python);
             break;
         default:
             setData(todos);
