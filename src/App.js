@@ -23,7 +23,7 @@ function App() {
       <Certificados/>
       <Ferramentas/>
       <Contato/>
-      {/* <Footer/> */}
+      <Footer/>
 
     </div>
   );
