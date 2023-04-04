@@ -1,0 +1,36 @@
+@media (max-width:1440px) {
+    #produtos .container .box {
+        height: 80%;
+    }
+    #produtos .container .box h2 {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
+@media (max-width:1024px) {
+    #produtos {
+        height: auto;
+        margin-bottom: 50px;
+    }
+    #produtos .container .box {
+        margin-top: 2vh;
+        width: 45%;
+    }
+    #produtos .container .box h2 {
+        width: 80%;
+        margin-top: 1vh;
+        padding: 25px;
+    }
+}
+
+@media (max-width:550px) {
+    #produtos .container .box {
+        width: 80%;
+    }
+    #produtos .container .box h2 {
+        width: 80%;
+        margin-top: 1vh;
+        padding: 25px;
+    }
+}

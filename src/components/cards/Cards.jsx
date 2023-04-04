@@ -1,14 +1,15 @@
 import React from 'react'
-import './produtos.scss'
+import './cards.scss'
+import './responsive.css'
 import unicamp from './icones/unicamp.png'
 import cotuca from './icones/cotuca.png'
 import mercado from './icones/mercado.png'
 import web from './icones/web.png'
 
-export default function Produtos() {
+export default function Cards() {
 
   return (
-    <div id='produtos'>
+    <div id='cards'>
       
         <div className="container">
             <div className="box">
