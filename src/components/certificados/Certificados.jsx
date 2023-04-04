@@ -1,12 +1,13 @@
 import React from 'react'
 import { useEffect, useState } from "react";
 import './certificados.scss'
+import './responsive.css'
 import ReactElasticCarousel from 'react-elastic-carousel'
-import certificado from './certificado.png'
+import certificado from './assets/certificado.png'
 
 import {
   certificados,
-} from '../../data-certificados.js';
+} from './data-certificados.js';
 
 
 export default function Certificados() {
@@ -38,7 +39,7 @@ export default function Certificados() {
 
         <div className="container">
 
-        <ReactElasticCarousel breakPoints={breakPoints}>
+          <ReactElasticCarousel breakPoints={breakPoints}>
 
         {data.map((d) => (
           <div className='box'>
@@ -46,20 +47,12 @@ export default function Certificados() {
               <img src={certificado} alt="" />
             </div>
             <div className="content">
-
                     <h4> <span>{d.title}</span></h4>
-
-
                     <h4>{d.legenda}</h4>
-
-
             </div>
-
           </div>
         ))}
-          
           </ReactElasticCarousel>
-
         </div>
     </div>
   )

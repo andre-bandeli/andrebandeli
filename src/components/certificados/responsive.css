@@ -1,0 +1,25 @@
+@media (max-width: 550px) {
+    #certificados .container {
+        width: 90%;
+    }
+
+    #certificados .container .box {
+        margin: auto;
+        width: 95%;
+        height: 55vh;
+    }
+
+    #certificados .container .box .text h2 {
+        font-size: 15px;
+    }
+
+    #certificados .container .box .local {
+        margin-top: 10vh;
+    }
+}
+
+@media (max-width: 400px) {
+    #certificados .container .box .content h4 {
+        font-size: 16px;
+    }
+}
