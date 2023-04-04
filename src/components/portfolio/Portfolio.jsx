@@ -49,8 +49,7 @@ export default function Portfolio() {
   return (
     <div id='portfolio'>
         <h2>Projetos</h2>
-        <h3>Aqui estão reunidos alguns de meus principais projetos. Nesse tempo, tenho produzido páginas web e componentes de software utilizando React, Spring Boot e Django.
-             Para ver todos, acesse meu github.</h3>
+        <h3>Uma seleção dos meus melhores trabalhos com React, Java e Spring Boot. Confira também meu GitHub para ver mais projetos</h3>
 
         <ul>
             {list.map((item) => (

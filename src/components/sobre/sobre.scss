@@ -35,6 +35,15 @@
                 height: auto;
                 margin-bottom: 10vh;
 
+                a {
+                    text-decoration: none;
+                    color: rgb(39, 243, 199);
+                }
+                a:hover {
+                    text-decoration: underline;
+                    transition: .4s;
+                }
+
                 h3 {
                     text-align: center;
                     color: var(--main-font-color);

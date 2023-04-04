@@ -32,7 +32,7 @@ export default function Cards() {
             <div className="box">
 
               <img src={web} alt="ícone ilustrativo SEO" />
-              <h2>Desenvolvo utilizando as principais ferramentas de mercado, tais como: Java, Spring Boot, Docker, React, MySQL, Bootstrap, Wordpress, Html e CSS</h2>
+              <h2>Desenvolvo apps web utilizando as principais ferramentas de mercado, tais como: Java, Spring Boot, Docker, React, MySQL, Bootstrap, Wordpress, Html e CSS</h2>
             </div>
         </div>
 
