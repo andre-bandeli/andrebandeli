@@ -1,0 +1,56 @@
+@media (max-width:1440px) {
+    #contato .col-12 {
+        width: 80%;
+        margin: auto;
+    }
+
+    #contato .col-12 .container {
+        margin: auto;
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    #contato {
+        height: auto;
+    }
+
+    #contato .col-12 {
+        height: auto;
+        display: inline-block;
+        width: 100%;
+    }
+
+    #contato .col-12 .container {
+        width: 80%;
+    }
+
+    #contato .col-12 .container .foto {
+        width: 150px;
+        height: 150px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 550px) {
+    #contato .col-12 {
+        margin-top: 20vh;
+    }
+
+    #contato .col-12 .container .foto {
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    #contato .col-12 .container h2 a {
+        font-size: 14px;
+        width: 10%;
+    }
+}
+
+@media (max-width: 400px) {
+    #contato .col-12 {
+        margin-top: 40vh;
+    }
+}

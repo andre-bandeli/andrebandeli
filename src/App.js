@@ -21,9 +21,9 @@ function App() {
       <Portfolio/>
       <Sobre/>
       <Certificados/>
-      {/* <Ferramentas/>
+      <Ferramentas/>
       <Contato/>
-      <Footer/> */}
+      {/* <Footer/> */}
 
     </div>
   );

@@ -9,8 +9,6 @@
     --background-color-cards: rgba(27, 166, 201, 0.452);
 }
 
-
-
 #contato {
     width: 100%;
     margin: auto;
@@ -25,17 +23,31 @@
         display: flex;
         margin: auto;
 
-
         .container {
             width: 40%;
             height:auto;
             margin: auto;
             color: rgb(0, 0, 0);
 
-            
+            .redes {
+                width:  120px;
+                margin-top: 50px;
+
+                a {
+                    width: 40px;
+                    height: 40px;
+                    margin-left: 0;
+                    margin-right: 20px;
+
+                    img {
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+            }
+
             h1 {
                 text-align: left;
-
                 margin-top: 0vh;
                 color: var(--main-font-color);
             }
@@ -45,116 +57,14 @@
                 font-size: 1.2em;
                 font-weight: 100;
                 text-align: left;
-  
                 color: var(--secundary-font-color);
                 
-            }
-            h3 {
-                width: 100%;
-                margin-top: 2vh;
-                font-size: 1.2em;
-                font-weight: 400;
-                text-align: left;
-                color: var(--secundary-font-color-yellow) ;
-                
-            }
-            a {
-                width: 100%;
-                color: var(--secundary-font-color);
-                font-weight: bold;
-                text-decoration: none;
-            }
-            a:hover {
-                text-decoration: underline;
-            }
-            h4 {
-                margin-top: 17vh;
-                letter-spacing: 1vh;
-                font-weight: 100;
-                margin-left: 15vh;
-            }
-            h5 {
-                font-size: 18px;
-                font-weight: 100;
-                letter-spacing: .5vh;
-            }
-    
-            img {
-    
-                width: 50px;
-            }
-    
-            .forms {
-                width: 100%;
-                height: auto;
-    
-                .standard-basic {
-                    width: 100%;
-                    margin-top: 5px;
-                    border: 1px solid rgb(52, 49, 48);
-                    background-color: rgba(16, 15, 15, 0.859);
-                    border-radius: 5px;
-                    label {
-                        color: var(--secundary-font-color-form);
-    
-                    }
-                    .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
-                        width: 0px;
-                        border: none;
-                        height: 100%;
-                    }
-                    input {
-                        color: var(--secundary-font-color-yellow);
-                        border: none;
-                    }
-                    
-                }
-                .standard-basic-box {
-                    width: 100%;
-                    height: 10vh;
-                    margin-top: 5px;
-                    border: 1px solid rgb(52, 49, 48);
-                    background-color: rgba(16, 15, 15, 0.859);
-                    border-radius: 5px;
-                    margin-right: 35px;
-                    label {
-                        color: var(--secundary-font-color-form);
-                        height: 100%;
-                    }
-                    .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
-                        width: 0px;
-                        height: 100%;
-                    }
-                    .MuiFormLabel-root {
-                        border: none;
-                    }
-                    input {
-                        color: white;
-                        color: var(--secundary-font-color-yellow);
-                        height: auto;
-                        border: none;
-                    }
-                }
-    
-                .btn {
-                    width: 50%;
-                    margin-left: -7vh;
-                    margin-top: 20px;
-                    margin-bottom: 50px;
-                    background-color: transparent;
-                    border: 1px solid rgb(10, 10, 10);
-                    visibility: visible;
-                }
-                .btn:hover {
-                    background-color: rgba(30, 23, 24, 0.779);
-                    color: orangered;
-                }
             }
     
             .foto {
                 width: 330px;
                 height: 330px;
-                background-image: url(./foto.svg);
+                background-image: url(./assets/foto.svg);
                 background-size: cover;
                 margin: auto;
                 border-radius: 50%;
@@ -173,83 +83,7 @@
                     height: 5vh;
         
                 }
-    
-            }
-            
-        }
-
-    }
-
-}
-
-@media (max-width:1440px) {
-    #contato {
-
-        .col-12 {
-            width: 80%;
-            margin: auto;
-
-
-            .container {
-                margin: auto;
-                width: 45%;
-
-
-            }
-
-        }
-      
-    }
-}
-
-
-
-@media (max-width: 768px) {
-    #contato {
-
-        height: auto;
-
-        .col-12 {
-            height: 100vh;
-            display: inline-block;
-            width: 100%;
-
-            .container {
-                width: 80%;
             }
         }
-
-        
-        
-    }
-}
-
-@media (max-width: 550px) {
-    #contato {
-        .col-12 {
-            margin-top: 20vh;
-            height: 120vh;
-         
-
-            .container {
-                h2 {
-                    a {
-                        font-size: 14px;
-                        width: 10%;
-
-                    }
-                }
-            }
-        }      
-    }
-}
-
-@media (max-width: 400px) {
-    #contato {
-        .col-12 {
-            margin-top: 40vh;
-            height: 140vh;
-         
-        }      
     }
 }
