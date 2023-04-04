@@ -18,22 +18,22 @@ export default function Footer() {
             <h2>Páginas</h2>
             <ul>
                     <li>
-                        <a to="/">Home</a>
+                        <a to="#header">Home</a>
                     </li>
                     <li>
-                        <a to="/login">Projetos</a>
+                        <a to="#portfolio">Projetos</a>
                     </li>
                     <li>
-                        <a to="/sobre">Sobre</a>
+                        <a to="#sobre">Sobre</a>
                     </li>
                     <li>
-                        <a to="/financiamentos">Certificados</a>
+                        <a to="#certificados">Certificados</a>
                     </li>
                     <li>
-                        <a to="/contato">Stacks</a>
+                        <a to="#ferramentas">Stacks</a>
                     </li>
                     <li>
-                        <a to="/motocicletas">Contato</a>
+                        <a to="#contato">Contato</a>
                     </li>
             </ul>
 
@@ -42,10 +42,10 @@ export default function Footer() {
                 <h2>Redes</h2>
                 <ul>
                         <li>
-                            <a to="/">Github</a>
+                            <a to="https://github.com/andre-bandeli">Github</a>
                         </li>
                         <li>
-                            <a to="/login">Linkedin</a>
+                            <a to="https://www.linkedin.com/in/andrebandeli/">Linkedin</a>
                         </li>
                         <li>
                             <a to="/login">Currículo</a>
