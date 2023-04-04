@@ -15,7 +15,7 @@ export default function Contato() {
       <div className="container">
           
           <h1>Contato</h1>
-          <h2>Quer conversar sobre ideias, projetos ou simplesmente compartilhar histórias interessantes? Me chame para um café.</h2>
+          <h2>Quer conversar sobre ideias, projetos ou simplesmente compartilhar histórias interessantes? Vamos bater um papo.</h2>
           <h2><b>Entre em contato através de alguma de minhas redes</b></h2>
 
           <div className="redes">

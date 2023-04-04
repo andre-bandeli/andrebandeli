@@ -48,14 +48,14 @@ export default function Footer() {
                             <a href="https://www.linkedin.com/in/andrebandeli/" alt="link para o linkedin" target='__blank'>Linkedin</a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/andrebandeli/" alt="link para documento pdf online do currículo" target='__blank'>Currículo</a>
+                            <a href="https://drive.google.com/file/d/1SsGuhU7ca5IZlGejf0asT-pZbjOfadPb/view?usp=sharing" alt="link para documento pdf online do currículo" target='__blank'>Currículo</a>
                         </li>
                         <li className='redes'>
                             <a href="https://github.com/andre-bandeli" alt="link para o github" target='__blank'>
                         <img src={github} alt="ícone do github" width='25px' height='25px' /></a>
                         <a href="https://www.linkedin.com/in/andrebandeli/" alt="link para o linkedin" target='__blank'>
                         <img src={linkedin} alt="ícone do linkedin" width='25px' height='25px' /></a>
-                        <a href="https://drive.google.com/file/d/1yGdyLi4i15Xa2ujFaQqF1eyvB0rwgpB_/view?usp=sharing" alt="link para documento pdf online do currículo" target='__blank'>
+                        <a href="https://drive.google.com/file/d/1SsGuhU7ca5IZlGejf0asT-pZbjOfadPb/view?usp=sharing" alt="link para documento pdf online do currículo" target='__blank'>
                         <img src={pdf} alt="ícone de pdf" width='25px' height='25px' /></a>
                     </li>
                        

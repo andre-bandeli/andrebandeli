@@ -72,7 +72,7 @@ export default function Sobre() {
 
                 <div className="text">
                     <h4>Durante minha trajetória no Colégio Técnico de Campinas (Cotuca-Unicamp), pude participar de alguns projetos bastante importantes, tendo destaque o PIBIC-EM (Programa Institucional de Bolsas de Iniciação 
-                        Científica para o Ensino Médio) projeto da Unicamp em parceria com o CNPq. Através da pesquisa desenvolvida, conquistei o reconhecimento do 1º lugar na categoria 'Humanidades' na VII Mostra de Trabalhos do Cotuca <a href="https://cotuca.unicamp.br/cotuca/2017/10/02/alunos-surpreendem-na-vii-mostra-de-trabalhos-do-cotuca/">veja matéria no site</a> e tendo a oportunidade de apresentar no congresso da Unicamp <a href="https://proceedings.science/unicamp-pibic/pibic-2017/autores/andre-luiz-bandeli-junior?lang=pt-br">XXV Congresso de Iniciação Científica da Unicamp (2017)</a> </h4>
+                        Científica para o Ensino Médio) projeto da Unicamp em parceria com o CNPq. Através da pesquisa desenvolvida, conquistei o reconhecimento do 1º lugar na categoria 'Humanidades' na VII Mostra de Trabalhos do Cotuca <a href="https://cotuca.unicamp.br/cotuca/2017/10/02/alunos-surpreendem-na-vii-mostra-de-trabalhos-do-cotuca/">(veja matéria no site)</a> e, também, tendo a oportunidade de apresentar no <a href="https://proceedings.science/unicamp-pibic/pibic-2017/autores/andre-luiz-bandeli-junior?lang=pt-br">XXV Congresso de Iniciação Científica da Unicamp (2017)</a> </h4>
                 </div>
                 <div className="text">
                     <h3>Experiência Profissional</h3>
@@ -113,7 +113,7 @@ export default function Sobre() {
 
             </div>
             <div className="btn">
-                <a href="https://drive.google.com/file/d/1yGdyLi4i15Xa2ujFaQqF1eyvB0rwgpB_/view?usp=sharing" alt="acessar currículo online" target='__blank'>
+                <a href="https://drive.google.com/file/d/1SsGuhU7ca5IZlGejf0asT-pZbjOfadPb/view?usp=sharing" alt="acessar currículo online" target='__blank'>
                 <button className='btn-secundary' alt="botao para acessar curriculo">
                 ver currículo completo</button>
                 </a>
