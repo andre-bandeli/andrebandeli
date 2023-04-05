@@ -184,8 +184,9 @@
                         }
 
                         img:hover {
-                            transition: .2s;
                             opacity: 1;
+                            transition: .6s;
+                            transform: scale(1.05); /* aumenta a escala da imagem em 5% */
                         }
                     }
                 }
