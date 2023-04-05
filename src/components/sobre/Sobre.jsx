@@ -13,7 +13,7 @@ export default function Sobre() {
                 <div className="text">
                     <h3>Sobre</h3>
                     <h4>Sou natural de Conchal, São Paulo, e me mudei aos 16 anos (em 2014) para Campinas/SP. Me formei como Técnico em Mecatrônica e Assistente de Projetos e Processos Industriais Mecânicos pelo Colégio Técnico de Campinas (Cotuca - Unicamp), onde realizei 
-                    também meu ensino médio. Iniciei minha graduação em 2019 no curso de Engenharia Agrícola pela Unicamp. Em 2021, decidi migrar de carreira após atuar por mais de 4 anos em Setor Industrial, tendo atuado com com manutenção, suporte operacional e planejamento de manutenções.</h4>
+                    também meu ensino médio. Iniciei minha graduação em 2019 no curso de Engenharia Agrícola pela Unicamp. Em 2021, decidi migrar de carreira após atuar por mais de 4 anos em Setor Industrial, tendo atuado com manutenção, suporte operacional e planejamento de manutenções.</h4>
                 </div>
                
                 <div className="text">
@@ -71,15 +71,15 @@ export default function Sobre() {
                 </div>
 
                 <div className="text">
-                    <h4>Durante minha trajetória no Colégio Técnico de Campinas (Cotuca-Unicamp), pude participar de alguns projetos bastante importantes, tendo destaque o PIBIC-EM (Programa Institucional de Bolsas de Iniciação 
-                        Científica para o Ensino Médio) projeto da Unicamp em parceria com o CNPq. Através da pesquisa desenvolvida, conquistei o reconhecimento do 1º lugar na categoria 'Humanidades' na VII Mostra de Trabalhos do Cotuca <a href="https://cotuca.unicamp.br/cotuca/2017/10/02/alunos-surpreendem-na-vii-mostra-de-trabalhos-do-cotuca/">(veja matéria no site)</a> e, também, tendo a oportunidade de apresentar no <a href="https://proceedings.science/unicamp-pibic/pibic-2017/autores/andre-luiz-bandeli-junior?lang=pt-br">XXV Congresso de Iniciação Científica da Unicamp (2017)</a> </h4>
+                    <h4>Durante minha trajetória no Colégio Técnico de Campinas, pude participar de alguns projetos bastante importantes, tendo destaque o PIBIC-EM (Programa Institucional de Bolsas de Iniciação 
+                        Científica para o Ensino Médio) projeto da Unicamp em parceria com o CNPq. Através da pesquisa desenvolvida, conquistei o reconhecimento do 1º lugar na categoria 'Humanidades' na VII Mostra de Trabalhos do Cotuca <a href="https://cotuca.unicamp.br/cotuca/2017/10/02/alunos-surpreendem-na-vii-mostra-de-trabalhos-do-cotuca/">(veja matéria no site)</a> e, também, tive a oportunidade de apresentar no <a href="https://proceedings.science/unicamp-pibic/pibic-2017/autores/andre-luiz-bandeli-junior?lang=pt-br">XXV Congresso de Iniciação Científica da Unicamp (2017).</a> </h4>
                 </div>
                 <div className="text">
                     <h3>Experiência Profissional</h3>
-                    <h4>Aos 25 anos, tenho trabalhado desde os meus 13 anos. Iniciei minha trajetória atuando durante 2 anos e meio em uma oficina de motos, como mecânico, ainda em Conchal. 
+                    <h4>Aos 25 anos, comecei a trabalhar aos 13 anos. Iniciei minha trajetória atuando durante 2 anos e meio em oficina de motos, como mecânico, ainda em Conchal. 
                         Quando me mudei para Campinas, comecei a trabalhar no Grêmio Recreativo, atuando durante 3 anos com tratamento e manutenção de piscinas. Em 2017, iniciei meu estágio Técnico
-                        na CTDI, onde trabalhei durante 4 anos e meio, tendo atuado como técnico de manutenção e suporte de engenharia em linhas produtivas, laboratório de reparo eletrônico e linhas de solda BGA.
-                        Atualmente sou aluno do Programa de Permanência na Unicamp, portanto atudo em projetos diversos para a universidade 
+                        na CTDI, onde trabalhei durante 4 anos e meio, tendo atuado como técnico de manutenção e suporte de engenharia em linhas produtivas, em laboratório de reparo eletrônico e em linhas de solda BGA.
+                        Atualmente sou aluno do Programa de Permanência na Unicamp, portanto atudo em projetos diversos para a universidade.
                     </h4>
                 </div>
                 <div className="profissional">
