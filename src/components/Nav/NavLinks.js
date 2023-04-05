@@ -62,7 +62,7 @@ const NavLinks = () => {
                 </li>
                 <li>
                     <div className='link'>
-                        <a href="#stack"  alt="botão ferramentas">Stacks</a>
+                        <a href="#stacks"  alt="botão ferramentas">Stacks</a>
                     </div>
                 </li>
                 <li>
