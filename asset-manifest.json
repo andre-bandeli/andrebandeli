@@ -1,12 +1,20 @@
 {
   "files": {
-    "main.css": "/andrebandeli/static/css/main.443d6ad6.css",
-    "main.js": "/andrebandeli/static/js/main.e4778dff.js",
+    "main.css": "/andrebandeli/static/css/main.772ca182.css",
+    "main.js": "/andrebandeli/static/js/main.13892224.js",
     "static/media/foto.svg": "/andrebandeli/static/media/foto.f560ce8bf9ed770a0960.svg",
     "static/media/certificado.png": "/andrebandeli/static/media/certificado.239e803c8cf6744d1ec9.png",
+    "static/media/mysql.png": "/andrebandeli/static/media/mysql.54eaa135e3bd204ae707.png",
+    "static/media/docker.png": "/andrebandeli/static/media/docker.f91f88c86d6192f218b6.png",
+    "static/media/spotify.png": "/andrebandeli/static/media/spotify.c59f5d23b6db61be52b3.png",
+    "static/media/django.png": "/andrebandeli/static/media/django.b512fa0b36ca986a0711.png",
+    "static/media/microservices.png": "/andrebandeli/static/media/microservices.fa37111b0fd7c1d53275.png",
     "static/media/unicamp.webp": "/andrebandeli/static/media/unicamp.47193d0ff446ba2124c0.webp",
+    "static/media/java.png": "/andrebandeli/static/media/java.b4e2f2412ac375164e9b.png",
+    "static/media/java2.png": "/andrebandeli/static/media/java2.5c5f81faf179c795b5c5.png",
     "static/media/hamburgueria.webp": "/andrebandeli/static/media/hamburgueria.609bf6e5eefa667885ae.webp",
     "static/media/ctc.webp": "/andrebandeli/static/media/ctc.35e8c31fb63bfb391fd9.webp",
+    "static/media/prof.png": "/andrebandeli/static/media/prof.a5089f256154a6b389a7.png",
     "static/media/guia.webp": "/andrebandeli/static/media/guia.ba2a6c91cec74df2df9b.webp",
     "static/media/webstore.webp": "/andrebandeli/static/media/webstore.f8085ebaa9ec9f6fbb2d.webp",
     "static/media/react.svg": "/andrebandeli/static/media/react.7ae34555b628c7885ffd0366e8b7d4f8.svg",
@@ -31,11 +39,11 @@
     "static/media/backend.webp": "/andrebandeli/static/media/backend.5d7bc3c57acfacb34506.webp",
     "static/media/pdf.webp": "/andrebandeli/static/media/pdf.b1675325026a5b9bb894.webp",
     "index.html": "/andrebandeli/index.html",
-    "main.443d6ad6.css.map": "/andrebandeli/static/css/main.443d6ad6.css.map",
-    "main.e4778dff.js.map": "/andrebandeli/static/js/main.e4778dff.js.map"
+    "main.772ca182.css.map": "/andrebandeli/static/css/main.772ca182.css.map",
+    "main.13892224.js.map": "/andrebandeli/static/js/main.13892224.js.map"
   },
   "entrypoints": [
-    "static/css/main.443d6ad6.css",
-    "static/js/main.e4778dff.js"
+    "static/css/main.772ca182.css",
+    "static/js/main.13892224.js"
   ]
 }
