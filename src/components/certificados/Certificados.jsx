@@ -44,7 +44,7 @@ export default function Certificados() {
         {data.map((d) => (
           <div className='box'>
             <div className="imagem">
-              <img src={certificado} alt="Imagem do certificado" />
+              <img src={d.imagem} alt="Imagem do certificado" />
             </div>
             <div className="content">
                     <h4> <span>{d.title}</span></h4>
