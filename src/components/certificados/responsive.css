@@ -4,14 +4,14 @@
         height: auto;
     }
     #certificados .container .box {
-        height: auto;
+        min-height: 75vh;
         width: 70%;
     }
 }
 @media (max-width: 768px) {
 
     #certificados .container .box {
-
+        min-height: 35vh;
         width: 65%;
     }
 }
@@ -23,7 +23,7 @@
     #certificados .container .box {
         margin: auto;
         width: 75%;
-        height: 55vh;
+        height: auto;
     }
 
     #certificados .container .box .text h2 {
