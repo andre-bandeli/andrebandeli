@@ -11,7 +11,7 @@ const NavLinks = () => {
         if (fromTop > 100) {
             $(".h1-desk").css('font-size', '0px');
             $(".h1-desk").css('transition', '.4s');
-            $(".Navbar").css('height', '10vh');
+            $(".Navbar").css('height', '11vh');
             $("#ul").css('margin-top', '30px');
             $(".git").css('margin-top', '10px');
             $(".git").css('transition', '.3s');

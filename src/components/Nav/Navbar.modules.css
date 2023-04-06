@@ -176,8 +176,8 @@
 }
 @media (max-width: 1024px) {
     .Navbar {
-        background-color: transparent;
         height: 11vh;
+        display: flex;
     }
     .Navbar nav .h1-desk  {
         font-size: 0;
@@ -188,6 +188,8 @@
     .Navbar .Navgation {
         display: none;
         visibility: hidden;
+        width: 0;
+        height: 0;
     }
     .Navbar nav ul{
         border: none;
@@ -204,14 +206,14 @@
     }
     .Navbar .MobileNavigation {
         display: flex;
-        height: 80vh;
+        height: 100%;
+        width: 100%;
         align-items: center;
     }
     .Navbar .MobileNavigation .Hamburguer {
 
         position: absolute;
         right: 70px;
-        top: 30px;
         cursor: pointer;
     }
     .Navbar .NavLinks nav ul {
@@ -219,76 +221,74 @@
     }
     .Navbar .mob {
         height: 90vh;
-        width: 100%;
-        top: 9vh;
+        width: 80%;
+        top: 9.5vh;
         margin-left: 0vh;
         position: fixed;
         display: inline-block;
         text-align: left;
         border-radius: 5px;
-        background-color: rgba(30, 33, 31, 0.938);
+        background-color: rgba(26, 27, 27, 0.966);
+        z-index: 999;
+        margin-left: -120vh;
     }
     .Navbar .mob li{
         margin: auto;
         width: 100%;
         height: 70px;
         margin-top: 20px;
-        margin-left: 0vh;
-        font-size: 22px;
+        margin-left: 5vh;
+        font-size: 20px;
         visibility: visible;
         border: none;
     }
 }
 @media (max-width: 912px) and (max-height: 1368px ) { 
-    .Navbar {
-        height: 10vh;
-    }
-
-
-}
-@media (max-width: 768px) {
-    .Navbar {
-        height: 10vh;
-    }
-    .Navbar nav ul{
-        margin-left: 300px;
-        margin-top: 0;
-    }
-
-    .Navbar .Navigation img {
-        margin-top: 0px;
-        width: 150px;
-    }
-
-}
-@media (max-width: 550px) {
-    .Navbar {
-        width: 100%;
-        margin: auto;
-    }
-    .Navbar nav h1  {
-        font-size: 18px;
-        margin-top: 4vh;
-    }
-    .Navbar .Navigation img {
-        margin-top: -1vh;
-    }
-
-
-}
-@media (max-width: 390px) {
-    .Navbar {
-        height: 12vh;
-    }
-    .Navbar nav h1  {
-        font-size: 18px;
-        margin-top: 4vh;
-    }
-    .Navbar nav ul{
-        margin-left: 0;
+    .Navbar .mob {
         
+        margin-left: -80vh;
+        margin-top: 1.5vh;
     }
-    .Navbar .Navigation img {
-        width: 130px;
+    .Navbar .mob li{
+        font-size: 27px;
+        margin-top: 70px;
+    }
+
+
+}
+
+@media (max-width: 550px) {
+    .Navbar .mob {
+        margin-left: -125vh;
+    }
+    .Navbar .mob li{
+        font-size: 22px;
+        margin-top: 40px;
+        margin-left: 75px;
+    }
+}
+@media (max-width: 415px) {
+    .Navbar .mob {
+        margin-left: -120vh;
+    }
+}
+@media (max-width: 375px) {
+    .Navbar .mob {
+        margin-left: -165vh;
+    }
+    .Navbar .mob li{
+        font-size: 18px;
+        margin-top: 20px;
+        margin-left: 35px;
+    }
+}
+@media (max-width: 360px) {
+    .Navbar .mob {
+        margin-left: -145vh;
+    }
+}
+@media (max-width: 280px) {
+    .Navbar .mob {
+        margin-left: -155vh;
     }
 }
