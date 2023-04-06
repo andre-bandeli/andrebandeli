@@ -13,6 +13,7 @@
 @media (max-width: 768px) {
     #contato {
         height: auto;
+        margin-top: 100px;
     }
 
     #contato .col-12 {
@@ -33,9 +34,6 @@
 }
 
 @media (max-width: 550px) {
-    #contato .col-12 {
-        margin-top: 25vh;
-    }
 
     #contato .col-12 .container .foto {
         visibility: hidden;
@@ -46,11 +44,5 @@
     #contato .col-12 .container h2 a {
         font-size: 14px;
         width: 10%;
-    }
-}
-
-@media (max-width: 400px) {
-    #contato .col-12 {
-        margin-top: 40vh;
     }
 }

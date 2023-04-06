@@ -11,7 +11,6 @@
 
     width: 100%;
     height: auto;
-    position: absolute;
 
     h2 {
         color: rgb(73, 71, 71);
@@ -59,15 +58,15 @@
 @media (max-width: 550px) {
     
 #stacks {
-    margin-top: 10vh;
-
+    margin-top: 100px;
 
     .container {
        height: auto;
+       margin-bottom: 50px;
 
         .box {
             width: 25%;
-
+            margin-top: 3vh;
             h2 {
                 font-size: 14px;
             }
