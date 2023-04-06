@@ -176,7 +176,8 @@
 }
 @media (max-width: 1024px) {
     .Navbar {
-        height: 10vh;
+        background-color: transparent;
+        height: 11vh;
     }
     .Navbar nav .h1-desk  {
         font-size: 0;
@@ -219,7 +220,7 @@
     .Navbar .mob {
         height: 90vh;
         width: 100%;
-        top: 10vh;
+        top: 9vh;
         margin-left: 0vh;
         position: fixed;
         display: inline-block;

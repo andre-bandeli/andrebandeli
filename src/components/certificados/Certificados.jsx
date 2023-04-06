@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import './certificados.scss'
 import './responsive.css'
 import ReactElasticCarousel from 'react-elastic-carousel'
-import certificado from './assets/certificado.png'
 
 import {
   certificados,
@@ -16,11 +15,9 @@ export default function Certificados() {
   const [data, setData] = useState([]);
 
   const breakPoints = [
-    {width: 1, itemsToShow: 1 },
-    {width: 375, itemsToShow: 1},
     {width: 550, itemsToShow: 1},
-    {width: 768, itemsToShow: 2},
-    {width: 1024, itemsToShow: 2},
+    {width: 768, itemsToShow: 3},
+    {width: 1024, itemsToShow: 3},
     {width: 1200, itemsToShow: 4},
   ]
 

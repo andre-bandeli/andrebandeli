@@ -68,7 +68,13 @@
     opacity: .7;
 }
 
+@media (max-width: 1024px) {
 
+    .footer .containerFooter .boxFooter  h2 {
+        margin-left: 4.5vh;
+    }
+    
+}
 @media (max-width: 768px) {
 
     .footer .containerFooter {
@@ -83,5 +89,6 @@
             margin-top: 2vh;
             padding-bottom: 10px;
     }
+    
 }
     

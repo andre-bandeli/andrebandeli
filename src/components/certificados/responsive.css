@@ -1,3 +1,20 @@
+
+@media (max-width: 1024px) {
+    #certificados {
+        height: auto;
+    }
+    #certificados .container .box {
+        height: auto;
+        width: 70%;
+    }
+}
+@media (max-width: 768px) {
+
+    #certificados .container .box {
+
+        width: 65%;
+    }
+}
 @media (max-width: 550px) {
     #certificados .container {
         width: 90%;
@@ -5,7 +22,7 @@
 
     #certificados .container .box {
         margin: auto;
-        width: 95%;
+        width: 75%;
         height: 55vh;
     }
 

@@ -11,6 +11,9 @@
     #portfolio .container .box {
         width: 45%;
     }
+    #portfolio .container .box .imagem {
+        height: 30vh;
+    }
 }
 
 @media (max-width:550px) {
@@ -26,6 +29,9 @@
         margin: auto;
         margin-top: 5vh;
         width: 80%;
+    }
+    #portfolio .container .box .imagem {
+        height: 25vh;
     }
     #portfolio .container .box h2 {
         margin-top: 20px;
