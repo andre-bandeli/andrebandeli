@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/andrebandeli/static/css/main.0bfde177.css",
+    "main.css": "/andrebandeli/static/css/main.b1ad5edd.css",
     "main.js": "/andrebandeli/static/js/main.737cb986.js",
     "static/media/foto.svg": "/andrebandeli/static/media/foto.f560ce8bf9ed770a0960.svg",
     "static/media/certificado.png": "/andrebandeli/static/media/certificado.239e803c8cf6744d1ec9.png",
@@ -39,11 +39,11 @@
     "static/media/backend.webp": "/andrebandeli/static/media/backend.5d7bc3c57acfacb34506.webp",
     "static/media/pdf.webp": "/andrebandeli/static/media/pdf.b1675325026a5b9bb894.webp",
     "index.html": "/andrebandeli/index.html",
-    "main.0bfde177.css.map": "/andrebandeli/static/css/main.0bfde177.css.map",
+    "main.b1ad5edd.css.map": "/andrebandeli/static/css/main.b1ad5edd.css.map",
     "main.737cb986.js.map": "/andrebandeli/static/js/main.737cb986.js.map"
   },
   "entrypoints": [
-    "static/css/main.0bfde177.css",
+    "static/css/main.b1ad5edd.css",
     "static/js/main.737cb986.js"
   ]
 }
