@@ -3,7 +3,7 @@ import './style.scss'
 import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/footer/Footer'
 
-export default function About() {
+export default function Contact() {
   return (
     <div>
 
@@ -12,11 +12,11 @@ export default function About() {
         </header>
 
         <main>
-            <section className='about'>
+            <section className='contact'>
                 <div className="container">
                     <div className="title">
                         <h2>Category</h2>
-                        <h1>About</h1>
+                        <h1>Contact</h1>
                     </div>
 
                     <div className="destaque">

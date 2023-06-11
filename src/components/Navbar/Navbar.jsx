@@ -16,19 +16,19 @@ export default function Navbar() {
                     <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/">Projects</Link>
+                    <Link to="/projects">Projects</Link>
                 </li>
                 <li>
-                    <Link to="/">Academic</Link>
+                    <Link to="/academic">Academic</Link>
                 </li>
                 <li>
                     <Link to="/">Dev comunity</Link>
                 </li>
                 <li>
-                    <Link to="/">About</Link>
+                    <Link to="/about">About</Link>
                 </li>
                 <li>
-                    <Link to="/">Contact</Link>
+                    <Link to="/contact">Contact</Link>
                 </li>
             </ul>
         </div>
