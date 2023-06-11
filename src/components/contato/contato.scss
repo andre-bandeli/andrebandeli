@@ -9,65 +9,76 @@
     --background-color-cards: rgba(27, 166, 201, 0.452);
 }
 
-#contato {
+.contato {
     width: 100%;
     margin: auto;
     height: 60vh;
     display: flex;
-    margin-top: 0px;
-
-    .col-12 {
-        width: 80%;
-        height: 70vh;
-        display: flex;
-        margin: auto;
+    margin-top: 125px;
+    background-color: rgb(14, 13, 13);
 
         .container {
-            width: 40%;
-            height:auto;
+            width: 100%;
+            height: 70%;
             margin: auto;
+            display: flex;
             color: rgb(0, 0, 0);
 
-            .redes {
-                width:  120px;
-                margin-top: 50px;
-
-                a {
-                    width: 40px;
-                    height: 40px;
-                    margin-left: 0;
-                    margin-right: 20px;
-
-                    img {
-                        width: 40px;
-                        height: 40px;
-                    }
+            .image {
+                width: 50%;
+                height: 100%;
+                display: flex;
+                .foto {
+                    width: 330px;
+                    height: 330px;
+                    background-image: url(./assets/foto.svg);
+                    background-size: cover;
+                    margin: auto;
+                    border-radius: 50%;
                 }
             }
 
-            h1 {
-                text-align: left;
-                margin-top: 0vh;
-                color: var(--main-font-color);
-            }
-            h2 {
-                width: 100%;
-                margin-top: 0vh;
-                font-size: 1.2em;
-                font-weight: 100;
-                text-align: left;
-                color: var(--secundary-font-color);
-                
-            }
+            .text {
+                width: 50%;
+                height: 100%;
+                display: flex;
+                flex-wrap: wrap;
+
+                h2 {
+                    text-align: left;
+                    margin-top: 0vh;
+                    color: white;
+                }
+                h3 {
+                    width: 100%;
+                    margin-top: 2vh;
+                    font-size: 1.2em;
+                    font-weight: 100;
+                    text-align: left;
+                    color: white;
+                    
+                }
+
+                .redes {
+                    width:  120px;
+                    margin-top: 50px;
     
-            .foto {
-                width: 330px;
-                height: 330px;
-                background-image: url(./assets/foto.svg);
-                background-size: cover;
-                margin: auto;
-                border-radius: 50%;
+                    a {
+                        width: 40px;
+                        height: 40px;
+                        margin-left: 0;
+                        margin-right: 20px;
+    
+                        img {
+                            width: 40px;
+                            height: 40px;
+                        }
+                    }
+                }
+    
             }
+
+    
     
             .box-contato {
                 width: 30%;
@@ -84,5 +95,4 @@
                 }
             }
         }
-    }
 }

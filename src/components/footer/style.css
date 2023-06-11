@@ -1,69 +1,53 @@
 
 .footer {
     width: 100%;
-    height: 40vh;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 100px;
-
-}
-
-.footer .social-box {
-    width: 100%;
     height: 5vh;
-    border-bottom: 1px solid rgba(139, 139, 139, 0.5);
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+
 }
 
-.footer .containerFooter {
-    width: 60%;
-    height: 70%;
+.footer .container {
+    width: 100%;
+    height: 100%;
     margin:auto;
-    margin-top: 4vh;
     display: flex;
 }
 
-.footer .containerFooter  .boxFooter {
-    width: 33.3%;
+
+.footer .container ul {
+    width: 100%;
+    height: 60%;
+    display: flex;
     margin: auto;
-    height: 100%;
+    margin-left: 0;
 }
 
-.footer .containerFooter .boxFooter  h2 {
-    font-size: 20px;
-    margin-left: 4vh;
-    letter-spacing: 1px;
-    font-weight: 600;
-    color: rgb(48, 46, 46);
-    color: white;
-    text-align: left;
-}
-
-.footer .containerFooter .boxFooter ul {
-    margin-top: 2vh;
-}
-
-.footer .containerFooter .boxFooter ul li {
+.footer .container ul li {
+    width: auto;
     list-style: none;
     text-align: left;
-    margin-top: 1vh;
     color: rgb(155, 155, 155);
+    display: flex;
 }
-.footer .containerFooter .boxFooter ul li a {
+.footer .container ul li a {
     color: black;
     color: rgb(197, 197, 197);
     text-align: left;
     text-decoration: none;
+    margin: auto;
 }
-.footer .containerFooter .boxFooter ul li a:hover {
+.footer .container ul li a:hover {
     text-decoration: underline;
 }
 
 
-.footer .containerFooter .boxFooter ul  .redes {
+.footer .container ul .redes {
     display: flex;
-    margin-top: 2vh;
+    margin: auto;
 }
 
-.footer .containerFooter .boxFooter ul .redes img {
+.footer .container .boxFooter ul .redes img {
     margin-right: 1vh;
     opacity: .7;
 }
@@ -71,12 +55,12 @@
 
 @media (max-width: 768px) {
 
-    .footer .containerFooter {
+    .footer .container {
             width: 100%;
             display: inline-block;
             
     }
-    .footer .containerFooter .boxFooter {
+    .footer .container .boxFooter {
             width: 90%;
             height: auto;
             margin: auto;

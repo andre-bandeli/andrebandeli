@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 :root {
     --main-font-color: wheat;
@@ -13,6 +13,8 @@
     margin-top: 0vh;
     background-position: center;
     font-family: var(--secundary-font-familily);
+    font-family: 'Lato', sans-serif;
+
 
     
     .container {
@@ -21,37 +23,33 @@
         height: 100%;
         display: inline-block;
         
-        .spn-name {
-            width: 80%;
+    
+            h1 {
+            color: rgb(230, 218, 218);
+            font-size: 5.5em;
+            letter-spacing: .7vh;
+            text-align: center;
             margin: auto;
             font-family: var(--secundary-font-familily);
             color: black;
-            text-align: center;
+            font-weight: 600;
 
-            h2 {
-                color: rgb(230, 218, 218);
-                font-size: 4.5em;
-                letter-spacing: .7vh;
-                text-align: center;
-                margin: auto;
-                font-family: var(--secundary-font-familily);
+            span {
+                color: rgb(11, 168, 230);
                 font-weight: 600;
-
-                span {
-                    color: rgb(11, 168, 230);
-                    font-weight: 600;
-                }
             }
         }
         h3 {
             color: var(--secundary-font-color);
+            font-family: 'Lato', sans-serif;
+            color: black;
             width: 80%;
             margin: auto;
             margin-top: 2vh;
             line-height: 40px;
             letter-spacing: 3px;
             text-align: center;
-            font-size: 1.1em;
+            font-size: 1.5em;
             font-weight: normal;
         }
 

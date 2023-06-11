@@ -14,12 +14,13 @@
 
     width: 100%;
     height: auto;
-    margin-top: 15vh;
+    margin-top: 125px;
 
     h2 {
-        color: var(--main-font-color);
+        color: black;
         font-size: 45px;
         font-weight: 500;
+        text-align: center;
     }
 
     h3 {
@@ -30,13 +31,13 @@
         font-weight: 100;
     }
 
-    .container {
+    .col-12 {
         width: 90%;
         height: 60vh;
         margin: auto;
-        margin-top: 15vh;
         display: flex;
         flex-wrap: wrap;
+        margin-top: 50px;
 
         .kXteup {
             background-color: rgb(36, 35, 35);

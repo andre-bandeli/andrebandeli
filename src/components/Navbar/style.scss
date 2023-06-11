@@ -1,0 +1,63 @@
+
+.primary-navbar {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    position: fixed;
+    z-index: 999;
+
+    .container-col-lg-12 {
+
+        width: 85%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+
+        .logo {
+            width: 30%;
+            height: 90%;
+            margin: auto;
+            margin-left: 0;
+            display: flex;
+
+            h1 {
+                margin: auto;
+                margin-left: 0;
+                color: grey;
+                font-family: 'Rowdies', cursive;
+            }
+
+            h1 span:hover {
+                transition: .4s ease-in;
+                color: red;
+            }
+        }
+        
+
+        ul {
+            display: flex;
+            width: 60%;
+            height: 90%;
+            margin-top: auto;
+            justify-content: space-between;
+
+            li {
+                width: auto;
+                height: 100%;
+                display: flex;
+
+                a {
+                    text-decoration: none;
+                    margin: auto;
+                    font-size: 18px;
+                    color: white;
+                    font-family: 'Lato', sans-serif;
+                }
+
+                a:hover {
+                    color: rgb(47, 255, 158)
+                }
+            }
+        }
+    }
+}

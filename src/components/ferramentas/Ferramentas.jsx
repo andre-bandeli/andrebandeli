@@ -16,7 +16,6 @@ export default function Ferramentas() {
     <div id='stacks'>
 
         <h2>Stacks de Atuação</h2>
-        <h3>Nos últimos anos, tenho trabalhado com desenvolvimento full-stack, com ênfase em front-end, back-end e bancos de dados com foco em Spring Boot e React, mas atuo com outras bibliotecas e frameworks, como Python, Django, Wordpress e Bootstrap.</h3>
 
         <div className="container">
             <div className="box">

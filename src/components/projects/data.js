@@ -21,7 +21,7 @@ export const todos = [
         },
     {
         id: 2,
-        title: "Concessionária Web API front-end + Captura de Lead",
+        title: "Concessionária Full Stack Web Page",
         legenda: "Aplicação front-end desenvolvida com React JS para a criação de um site institucional para Concessionária Online",
         img:webstore,
         img_alt:"imagem fundo gestor de manutenção",
@@ -30,7 +30,7 @@ export const todos = [
     },
     {
       id: 3,
-      title: "Guia virtual de atendimento - Mestrado FCM Unicamp",
+      title: "Guia virtual de atendimento - FCM Unicamp",
       legenda: "Guia virtual de atendimento a mulheres vitímas de violência. Site desenvolvido para defesa de mestrado na FCM",
       img:guia,
       img_alt:"imagem fundo gestor de manutenção",
@@ -62,23 +62,6 @@ export const todos = [
     img:odonto,
     img_alt:"imagem fundo gestor de manutenção",
     git:"https://github.com/andre-bandeli/maintenance-manager-REST-spring-boot",
-  },
-  {
-    id: 7,
-    title: "MaintenanceManager API back-end + MySQL",
-    legenda: "Aplicação back-end desenvolvida com Java, Spring Boot, MySQL e Docker para o gerenciamento de manutenção",
-    img:backend,
-    img_alt:"imagem fundo gestor de manutenção",
-    git:"https://github.com/andre-bandeli/maintenance-manager-api-spring-boot",
-  },
-  {
-  id: 8,
-  title: "Concessionária Web API back-end + MySQL + Deploy Railway",
-  legenda: "Aplicação back-end desenvolvida com Java, Spring Boot, MySQL e Docker para site institucional e captura de leads",
-  img:backend,
-  img_alt:"imagem fundo gestor de manutenção",
-  git:"https://github.com/andre-bandeli/concessionaria-api-back-end-springboot",
-  view:"https://concessionaria-spring-boot-production.up.railway.app/",
   },
 
   ];
@@ -157,6 +140,19 @@ export const java = [
       img_alt:"imagem fundo gestor de manutenção",
       git:"https://github.com/andre-bandeli/microsservice-java-kafka-player-music",
     },
+   
+];
+
+ 
+export const wordpress = [
+  {
+    id: 7,
+    title: "MaintenanceManager API back-end + MySQL",
+    legenda: "Aplicação back-end desenvolvida com Java, Spring Boot, MySQL e Docker para o gerenciamento de manutenção",
+    img:backend,
+    img_alt:"imagem fundo gestor de manutenção",
+    git:"https://github.com/andre-bandeli/maintenance-manager-api-spring-boot",
+  },
    
 ];
   

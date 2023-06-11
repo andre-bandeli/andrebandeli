@@ -1,5 +1,5 @@
 import React from 'react'
-import './portfolio.scss'
+import './projects.scss'
 import './responsive.css'
 import { useEffect, useState } from "react";
 import PortfolioList from "./PortfolioList";
@@ -9,9 +9,10 @@ import {
     todos,
     reactjs,
     java,
+    wordpress,
 } from './data';
 
-export default function Portfolio() {
+export default function Projects() {
 
     const [selected, setSelected] = useState("todos");
     const [data, setData] = useState([]);
@@ -28,6 +29,10 @@ export default function Portfolio() {
         id: "java",
         title: "Java",
         },
+        {
+            id: "wordpress",
+            title: "Wordpress",
+            },
     ];
 
     useEffect(() => {
@@ -41,14 +46,17 @@ export default function Portfolio() {
         case "java":
             setData(java);
             break;
+        case "wordpress":
+            setData(wordpress);
+            break;
         default:
             setData(todos);
         }
     }, [selected]);
 
   return (
-    <div id='portfolio'>
-        <h2>Projetos</h2>
+    <div className='projects'>
+        <h2>Projects</h2>
         <h3>Uma seleção dos meus melhores trabalhos com React, Java e Spring Boot. Confira também meu GitHub para ver mais projetos</h3>
 
         <ul>
@@ -62,7 +70,7 @@ export default function Portfolio() {
             ))}
         </ul>
 
-        <div className="container">
+        <div className="col-12">
             {data.map((d) => (
                 <div className="box">
                     <div className="imagem">

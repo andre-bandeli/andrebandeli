@@ -1,0 +1,124 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: none;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: rgb(34, 245, 234);
+}
+
+.hero-section {
+
+    width: 100%;
+    height: 95vh;
+    background-color: black;
+    border-bottom-right-radius: 150px;
+    display: flex;
+
+    .col-12 {
+        width: 85%;
+        height: 70%;
+        margin: auto;
+
+        h1 {
+            font-family: 'Rowdies', cursive;
+            font-size: 97px;
+            letter-spacing: 15px;
+            color: white;
+            text-align: left;
+        }
+
+        h3 {
+            font-size: 18px;
+            color: rgb(255, 255, 255);
+            line-height: 27px;
+            font-family: 'Lato', sans-serif;
+            font-weight:100;
+            letter-spacing: 4px;
+        }
+
+        .content-hero {
+
+            width: 100%;
+            height: 60%;
+            margin-top: 75px;
+            display: flex;
+
+            .col-md-6 {
+
+                width: 50%;
+                height: 100%;
+                display: flex;
+                flex-wrap: wrap;
+
+                h2 {
+                    width: 100%;
+                    font-family: 'Rowdies', cursive;
+                    font-size: 95px;
+                    font-weight: normal;
+                    letter-spacing: 25px;
+                    color: white;
+                    margin: auto;
+                }
+
+                .primary-button {
+                    width: 350px;
+                    height: 60px;
+                    border-radius: 15px;
+                    background-color: transparent;
+                    border: 2px solid;
+                    border-image: linear-gradient(to right top, #ff376b, #ec60c1, #ae90fa, #58b3ff, #26caf8);
+                    border-image-slice: 1;
+
+                    a {
+                        font-size: 18px;
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+
+                .container-carousel {
+                    width: 100%;
+                    height: 60%;
+                    margin: auto;
+
+                    .carousel {
+                        width: 100%;
+                        height: 100%;
+                        margin: auto;
+                        .carousel-inner {
+                            width: 100%;
+                            height: 100%;
+                            display: flex;
+
+                            .carousel-item {
+                                width: 100%;
+                                height: 100%;
+                                margin: auto;
+
+                                h3 {
+                                    color: white;
+                                    font-weight: bolder;
+                                    margin-top: 100px;
+                                    margin-left: 95px;
+                                }
+
+                                h4 {
+                                    width: 70%;
+                                    color: white;
+                                    margin-left: 95px;
+                                    line-height: 25px;
+                                    font-weight: 100;
+                                    font-size: 16px;
+                                }
+
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

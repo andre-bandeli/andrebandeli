@@ -37,7 +37,7 @@ export default function Certificados() {
         <h2>Cursos e Certificações</h2>
         <h3>Aqui estão reunidos alguns dos cursos que realizei e venho realizando, sendo eles de programação nas linguagens java e python, banco de dados, Docker, construção de aplicações REST entre outros.</h3>
 
-        <div className="container">
+        <div className="col-12">
 
           <ReactElasticCarousel breakPoints={breakPoints}>
 
